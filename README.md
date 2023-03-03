@@ -32,7 +32,8 @@ python index.py your_sm.ms_api
 ```shell
 # 1、cloudflare界面R2—>Create bucket
 # 2、创建名为blog的bucket
-# 3、依据官方文档对rclone进行配置
+# 3、下载rclone https://rclone.org/install/
+# 4、依据官方文档对rclone进行配置
 # cf文档地址：https://developers.cloudflare.com/r2/examples/rclone/
 # rclone文档地址：https://rclone.org/docs/
 
