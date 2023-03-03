@@ -1,6 +1,6 @@
 ## 说明
 
-本仓库用于备份博客图片。代码改编自[下载自己在 SM.MS 图床上的所有图片](https://blog.baoshuo.ren/post/download-smms-image/)。
+本仓库代码用于备份sm.ms图床图片。代码改编自[下载自己在 SM.MS 图床上的所有图片](https://blog.baoshuo.ren/post/download-smms-image/)。
 
 SM.MS一份、本地一份、Cloudflare R2一份（当然你也可以直接将图片上传至GitHub，然后借助jsdeliver cdn来加速）。
 
@@ -40,5 +40,6 @@ python index.py your_sm.ms_api
 # 创建配置文件
 .\rclone.exe config file
 # 将本地的images文件夹上传至R2存储桶中的images文件夹中
+# example: .\rclone.exe copy "D:\project\python\sm.ms\images" blog:blog/images
 .\rclone.exe copy "you_sm.ms_images_folder_location" blog:blog/images
 ```
