@@ -16,11 +16,11 @@ SM.MS一份、本地一份、Cloudflare R2一份。
 
 ```bash
 # 克隆本仓库
-git clone 
+git clone https://github.com/real-jiakai/sm.ms.git
 # 进入文件夹
 cd sm.ms
 # 安装requirements库
 pip install -r requirements或pip install requirements
-# 运行脚，其中
-python index.py sm.ms_api
+# 运行脚本，其中your_sm.ms_api替换为sm.ms账号的api
+python index.py your_sm.ms_api
 ```
