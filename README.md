@@ -19,6 +19,8 @@ SM.MS一份、本地一份、Cloudflare R2一份。
 git clone https://github.com/real-jiakai/sm.ms.git
 # 进入文件夹
 cd sm.ms
+# 新建images文件夹
+mkdir images
 # 安装requirements库
 pip install -r requirements或pip install requirements
 # 运行脚本，其中your_sm.ms_api替换为sm.ms账号的api
