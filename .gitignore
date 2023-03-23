@@ -1,2 +1,4 @@
 # 忽略images文件夹
 images/
+# 忽略所有.exe文件
+*.exe

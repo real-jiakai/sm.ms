@@ -43,3 +43,9 @@ python index.py your_sm.ms_api
 # example: .\rclone.exe copy "D:\project\python\sm.ms\images" blog:blog/images
 .\rclone.exe copy "you_sm.ms_images_folder_location" blog:blog/images
 ```
+
+## 注意点
+
+请务必让sm.ms网址走代理。
+
+![sm.ms走clash代理](https://vip2.loli.io/2023/03/23/gT6IHi72GdaLfMl.webp)
