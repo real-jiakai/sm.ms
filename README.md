@@ -21,8 +21,8 @@ git clone https://github.com/real-jiakai/sm.ms.git
 cd sm.ms
 # 新建images文件夹
 mkdir images
-# 安装requirements库
-pip install -r requirements或pip install requirements
+# 安装依赖
+pip install -r requirements.txt
 # 运行脚本，其中your_sm.ms_api替换为sm.ms账号的api
 python index.py your_sm.ms_api
 ```
